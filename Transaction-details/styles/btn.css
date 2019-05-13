@@ -1,0 +1,22 @@
+.btn-refund {
+  background: #00075A;
+  color:#fff;
+  border-radius: 40px;
+  border: none;
+  margin: 15px;
+  padding: 8px 60px;
+
+}
+
+.btn-refund:hover {
+    background: #e5f2ff;
+    color: #8DB8E8;
+    cursor: pointer;   
+    margin-top: 10px;
+
+  }
+  
+  .btn:disabled {
+    background: #B2B3CC;
+    color: #E8E8EF;
+  }
