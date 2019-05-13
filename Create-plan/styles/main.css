@@ -1,0 +1,53 @@
+.main {
+    background-image: url('../imgs/background.png');
+    background-repeat: no-repeat;
+    background-size: 100% 20%;
+    margin: 0;
+}
+
+  .section-container, h1 {
+    font-family: 'Nordea Sans Small Web Light', Fallback, sans-serif;
+    margin-left: 10px;
+    margin-top: 20px;
+    color: #fff;
+  }
+
+  h1 {
+      margin-top: 90px;
+  }
+
+  .section {
+      margin-right: 20px;
+  }
+
+  .btn-create {
+    background: #00075A;
+    color:#fff;
+    border-radius: 40px;
+    border: none;
+    margin: 10px;
+    padding: 10px 50px;
+
+  }
+
+  .card-title {
+    margin-left: -15px;
+    margin-top: 10px; 
+    margin-bottom: 20px; 
+
+}
+
+.card-plan {
+    border-radius: 10px;
+    border: none;
+    box-shadow: none;
+    margin: 0 5px 20px;
+}
+
+
+.currency {
+    margin-top: 40px;
+    margin-left: -10px;
+
+}
+

@@ -1,0 +1,32 @@
+/* Reset */
+body {
+    font-family: 'Nordea Sans Small Web Regular', Fallback, sans-serif;
+    background: #F4F2F1;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+input[type=text], input[type=number] {
+    border-radius:  2px;
+    outline: none;
+
+}
+ 
+
+  

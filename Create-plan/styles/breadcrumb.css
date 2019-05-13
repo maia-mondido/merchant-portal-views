@@ -1,0 +1,29 @@
+.breadcrumb  {
+    background: transparent;
+
+}
+
+.breadcrumb-item {
+  position: relative;
+  top: 10px;
+  margin-right: 20px;
+  color: #fff;
+
+}
+
+.breadcrumb-item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.active {
+  color: #fff;
+}
+
+.arr-right .breadcrumb-item+.breadcrumb-item::before {
+    /* content: "›";    */
+    content: ""; 
+    /* font-size:32px;
+    font-weight: 50;
+    line-height:18px;    */
+}

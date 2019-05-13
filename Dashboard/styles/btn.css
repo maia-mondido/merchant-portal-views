@@ -1,0 +1,32 @@
+.btn-show {
+    background: #00075A;
+    color:#fff;
+    border-radius: 40px;
+    border: none;
+    margin: 10px;
+    padding: 8px 60px;
+
+  }
+
+.btn:hover {
+    background: #e5f2ff;
+    color: #8DB8E8;
+    cursor: pointer;     
+
+  }
+  
+  .btn:disabled {
+    background: #B2B3CC;
+    color: #E8E8EF;
+  }
+
+  .btn-view {
+    background: #00075A;
+    color:#fff;
+    border-radius: 40px;
+    border: none;
+    padding: 8px 60px;
+
+
+  }
+

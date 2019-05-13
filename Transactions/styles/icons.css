@@ -1,0 +1,112 @@
+/* Arrows */
+
+.container-down {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 10px;
+  }
+  
+  .triangle-down {
+    position: absolute;
+    margin: auto;
+    top: 1px;
+    left: 10px;
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+  }
+
+  
+  .container-left {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top: 10px;
+    right: 20px;
+    color: #fff;
+
+  }
+  
+  .triangle-left {
+    position: absolute;
+    margin: auto;
+    top: 2px;
+    width: 10px;
+    height: 10px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+  }
+
+  .container-left-nav {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    right: -150px;
+    top: 5px;
+  }
+  
+  .triangle-left-nav {
+    position: absolute;
+    margin: auto;
+    top: 1px;
+    left: 7px;
+    width: 10px;
+    height: 10px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    border-right: 1px solid #8B8A8D;
+    border-bottom: 1px solid #8B8A8D;
+  }
+
+  /* Circled plus */
+    
+  .plus-sign {
+    border: 1px solid #00075A;
+    height: 5px; 
+    cursor: pointer;     
+    width: 7px;
+    padding: 0 5px 0;
+    border-radius: 50%;
+}
+
+.add{
+  color: #00075A;
+  font-size: 20px;
+  margin-left: -15px;
+}
+
+.icon {
+  width: 10%;
+  position: relative;
+  top: 2px;
+}
+
+.icon-none {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #8B8A8D;
+  position: relative;
+  top: 7px;
+  left: -2px;
+}
+
+.graph{
+  width: 100%;
+}

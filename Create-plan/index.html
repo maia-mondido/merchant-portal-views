@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">  
+    <!-- Component styles -->
+    <link rel="stylesheet" href="styles/index.css">
+   
+    <title>Merchant Portal</title>
+</head>
+<body>
+    <div>
+        <!-- Header -->
+        <nav class="navbar navbar-expand-lg mx-0">
+                <a class="navbar-brand ml-3" href="#">Nordea Connect</a>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <div class="navbar-nav mr-auto">
+                      <a class="nav-link" href="#">Merchant portal</a>                  
+                  </div>
+                  <form class="form-inline my-2 my-lg-0 mr-4">
+                    <div class="nav-item ">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Merchant name <span class="container-down"><span class="triangle-down"></span></span>
+                        </a>
+                        <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Name 1</a>
+                            <a class="dropdown-item" href="#">Name 2</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Name 3</a>
+                        </div> -->
+                        </div>
+                  </form>
+                </div>
+              </nav>
+                 
+        <div class="row col-lg-12 mx-0 px-0">
+            <!-- Sidebar -->
+            <nav class="col-lg-3 sidebar">
+                <ul>
+                    <li><span class="icon-none"></span>
+                        <span class="nav-item">Merchant name</span>
+                        <span class="container-left-nav"><span class="triangle-left-nav"></span></span></li>
+                    <li>
+                        <img src="imgs/dashboard.png" class="icon" alt="dashboard" />
+                        <span class="nav-item">Dashboard</span>
+                    </li>
+                </ul>
+                <small>Setting up</small>
+                <ul>
+                    <li>
+                        <img src="imgs/integration.png" class="icon" alt="integration" />
+                        <span class="nav-item">Integration</span>
+                    </li>
+                    <li><img src="imgs/users.png" class="icon" alt="users" />
+                        <span class="nav-item">Users</span>
+                    </li>
+                    <li>
+                        <img src="imgs/security.png" class="icon" alt="secure"/>
+                        <span class="nav-item">3D secure/fraud</span>
+                    </li>
+                </ul>
+                <small>General</small>
+                <ul>
+                    <li>
+                        <img src="imgs/transactions.png" class="icon" alt="transactions"/>
+                        <span class="nav-item">Transactions</span>
+                    </li>
+                    <li>
+                        <img src="imgs/billing-plans.png" class="icon" alt="billing-plans"/>
+                        <span class="nav-item">Billing plans</span>
+                    </li>
+                    <li>
+                        <img src="imgs/customers.png" class="icon" alt="customers"/>
+                        <span class="nav-item">Customers</span>
+                    </li>
+                    <li>
+                        <img src="imgs/audit-log.png" class="icon" alt="audit-log"/>
+                        <span class="nav-item">Audit log</span>
+                    </li>
+                </ul>
+                <small>Data requests</small>
+                <ul>
+                    <li>
+                        <span class="icon-none"></span>
+                        <span class="nav-item">Webhooks</span>
+                    </li>
+                    <li>
+                        <span class="icon-none"></span>
+                        <span class="nav-item">Alias</span>
+                    </li>
+        
+                </ul>
+                <small>Interface</small>
+                <ul>
+                    <li>
+                        <span class="icon-none"></span>
+                        <span class="nav-item">Payment templates</span>
+                    </li>
+                    <li>
+                        <span class="icon-none"></span>
+                        <span class="nav-item">Payment form</span>
+                    </li>
+        
+                </ul>
+                <small>Help</small>
+                <ul>
+                    <li>
+                        <span class="icon-none"></span>
+                        <span class="nav-item">Contact</span>
+                    </li>
+                    <li>
+                        <span class="icon-none"></span>
+                        <span class="nav-item">FAQ</span>
+                    </li>
+                    <li>
+                        <span class="icon-none"></span>
+                        <span class="nav-item">Documentation</span>
+                    </li>
+                </ul>
+                </nav>
+            <!-- Main -->
+            <div class="main col-lg-9">
+                <nav aria-label="breadcrumb ">
+                        <span class="breadcrumb-item ml-2">Merchant name </span>
+                            <span class="container-left"><span class="triangle-left"></span></span>
+                            <span class="breadcrumb-item">Billing plans</span>
+                            <span class="container-left"><span class="triangle-left"></span></span>
+                        <span class="breadcrumb-item">Create a new plan</span>
+                    <!-- <ol class="breadcrumb arr-right"><span class="container-left-nav"><span class="triangle-left-nav"></span></span>
+                        <li class="breadcrumb-item "> <a href="#">Merchant name</a></li>
+                        <span class="container-left-nav"><span class="triangle-left-nav"></span></span>
+                        <li class="breadcrumb-item "> <a href="#">Billing plans</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Create a new plan</li>
+                    </ol> -->
+                </nav>
+                    <h1>Create a new plan</h1>
+                    <!-- Plan details -->
+                    <div class="card card-plan col-lg-12" >
+                        <div class="card-body row">
+                            <div class="col-lg-12 ">
+                                <h4 class="card-title">Plan details</h4>
+                            </div>
+                            <div class="form-group ">
+                                <label htmlFor="planName"><small>Name</small></label>
+                                <input type="text" class="form-control" id="card-number" placeholder="Plan name" required />
+                            </div>   
+                            <div class="col-lg-12 ">
+                                <h6 class="add"><span class="plus-sign">+</span> Add description</h6>
+                            </div>
+      
+                        </div> 
+                    </div> 
+                    <!-- Prices -->
+                    <div class="card card-plan col-lg-12" >
+                        <div class="card-body row">
+                            <div class="col-lg-12 ">
+                                <h4 class="card-title">Prices</h4>
+                            </div>
+                            <div class="row col-lg-12 ">
+                                <p class="col-lg-2 currency">SEK</p> 
+
+                                <div class="form-group col-lg-3">
+                                    <label htmlFor="amount"><small>Amount</small></label>
+                                    <input type="number" class="form-control" id="card-number" placeholder="0" required />
+                                </div> 
+                                <div class="form-group col-lg-3">
+                                    <label htmlFor="setupFee"><small>Setup Fee</small></label>
+                                    <input type="number" class="form-control" id="card-number" placeholder="0" required />
+                                </div> 
+                            </div>
+                            <div class="row col-lg-12 ">
+                                <p class="col-lg-2 currency">EUR</p> 
+
+                                <div class="form-group col-lg-3">
+                                    <label htmlFor="amount"><small>Amount</small></label>
+                                    <input type="number" class="form-control" id="card-number" placeholder="0" required />
+                                </div> 
+                                <div class="form-group col-lg-3">
+                                    <label htmlFor="setupFee"><small>Setup Fee</small></label>
+                                    <input type="number" class="form-control" id="card-number" placeholder="0" required />
+                                </div> 
+                            </div>
+                            <div class="row col-lg-12 ">
+                                <p class="col-lg-2 currency">USD</p> 
+
+                                <div class="form-group col-lg-3">
+                                    <label htmlFor="amount"><small>Amount</small></label>
+                                    <input type="number" class="form-control" id="card-number" placeholder="0" required />
+                                </div> 
+                                <div class="form-group col-lg-3">
+                                    <label htmlFor="setupFee"><small>Setup Fee</small></label>
+                                    <input type="number" class="form-control" id="card-number" placeholder="0" required />
+                                </div> 
+                            </div>                        
+               
+                        </div> 
+                    </div> 
+                    <!-- Unamed section -->
+                    <div class="card card-plan col-lg-12" >
+                        <div class="card-body row">
+                            <div class="col-lg-12 ">
+                                <h4 class="card-title">Section name</h4>
+                            </div>
+                            <div class="row col-lg-12 ">
+                                <div class="form-group col-lg-3">
+                                <label class="radio-button">
+                                    <input type="radio" name="paymentMethod" class="radio-border" value="payPal" />
+                                    <span class="custom-radio"></span>
+                                    Every weekday 
+                                </label>
+                                </div>
+
+                                <div class="form-group col-lg-6">
+                                    <label htmlFor="amount"><small>Weekday</small></label>
+                                    <div class="dropdown disabled">
+                                        <span >Monday
+                                            <i class="fa fa-chevron-down fa-chevron-disabled down"></i>
+                                        </span>
+                                    </div>                    
+                                </div> 
+                            </div>  
+
+                            <div class="row col-lg-12 ">
+                                <div class="form-group col-lg-3">
+                                <label class="radio-button">
+                                    <input type="radio" name="paymentMethod" class="radio-border" value="payPal" />
+                                    <span class="custom-radio"></span>
+                                    Every day in month
+                                </label>
+                                </div>
+
+                                <div class="form-group col-lg-6">
+                                    <label htmlFor="amount" ><small>Day in month</small></label>
+                                    <div class="dropdown disabled">
+                                        <span >1 
+                                            <i class="fa fa-chevron-down fa-chevron-disabled down"></i>
+                                        </span>
+                                    </div> 
+                                </div> 
+                            </div> 
+
+                            <div class="row col-lg-12 ">
+                                <div class="form-group col-lg-3">
+                                <label class="radio-button">
+                                    <input type="radio" name="paymentMethod" class="radio-border" value="payPal" />
+                                    <span class="custom-radio"></span>
+                                    Interval
+                                </label>
+                                </div>
+
+                                <div class="form-group col-lg-3">
+                                    <label htmlFor="amount"><small>Interval</small></label>
+                                    <div class="dropdown-half">
+                                        <span>1 <i class="fa fa-chevron-down down"></i>
+                                            <i class="fa fa-chevron-up up"></i></span>
+                                        <ul class="options">
+                                            <li><a href="#">Option 1</a></li>
+                                            <li><a href="#">Option 2</a></li>
+                                            
+                                        </ul>
+                                    </div> 
+                                </div> 
+                                <div class="form-group col-lg-3">
+
+                                    <label htmlFor="amount"><small>Unit</small></label>
+                                    <div class="dropdown-half">
+                                        <span>Months <i class="fa fa-chevron-down down"></i>
+                                            <i class="fa fa-chevron-up up"></i></span>
+                                        <ul class="options">
+                                            <li><a href="#">Option 1</a></li>
+                                            <li><a href="#">Option 2</a></li>
+                                            
+                                        </ul>
+                                    </div> 
+                                </div> 
+                            </div>            
+                        </div> 
+                        <div class="col-lg-12 ">
+                            <p class="add"><span class="plus-sign">+</span> Limit periods <span class="circled-mark">&#9432;</span></p>
+                        </div>
+                        <div class="col-lg-12 ">
+                            <p class="add"><span class="plus-sign">+</span> Add trial period</p>
+                        </div>
+                    </div> 
+                    <input type="submit" class="btn-create" value="Create plan" />             
+            </div>
+        </div>
+      </div>
+</body>
+</html>
+
+    
