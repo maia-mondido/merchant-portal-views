@@ -1,87 +1,88 @@
 /* Arrows */
 
+/* Arrows */
+
 .container-down {
-    width: 10px;
-    height: 10px;
-    position: absolute;
-    top: 10px;
-  }
-  
-  .triangle-down {
-    position: absolute;
-    margin: auto;
-    top: 1px;
-    left: 10px;
-    width: 10px;
-    height: 10px;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    border-right: 1px solid #fff;
-    border-bottom: 1px solid #fff;
-  }
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 12px;
+}
 
-  
-  .container-left {
-    width: 10px;
-    height: 10px;
-    position: relative;
-    top: 10px;
-    right: 20px;
-    color: #fff;
+.triangle-down {
+  position: absolute;
+  margin: auto;
+  top: 1px;
+  left: 10px;
+  width: 10px;
+  height: 10px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
 
-  }
-  
-  .triangle-left {
-    position: absolute;
-    margin: auto;
-    top: 2px;
-    width: 10px;
-    height: 10px;
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    border-right: 1px solid #fff;
-    border-bottom: 1px solid #fff;
-  }
 
-  .container-left-nav {
-    width: 10px;
-    height: 10px;
-    position: relative;
-    right: -150px;
-    top: 5px;
-  }
-  
-  .triangle-left-nav {
-    position: absolute;
-    margin: auto;
-    top: 1px;
-    left: 7px;
-    width: 10px;
-    height: 10px;
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    border-right: 1px solid #8B8A8D;
-    border-bottom: 1px solid #8B8A8D;
-  }
+.container-left {
+  width: 9px;
+  height: 9px;
+  position: relative;
+  top: 12px;
+  right: 20px;
 
-  /* Circled plus */
-    
-  .plus-sign {
-    border: 1px solid #00075A;
-    height: 5px; 
-    cursor: pointer;     
-    width: 7px;
-    padding: 0 5px 0;
-    border-radius: 50%;
+}
+
+.triangle-left {
+  position: absolute;
+  margin: auto;
+  top: 2px;
+  width: 9px;
+  height: 9px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.container-left-nav {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  right: -150px;
+  top: 5px;
+}
+
+.triangle-left-nav {
+  position: absolute;
+  margin: auto;
+  top: 1px;
+  left: 7px;
+  width: 10px;
+  height: 10px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  border-right: 1px solid #8B8A8D;
+  border-bottom: 1px solid #8B8A8D;
+}
+
+/* Circled plus */
+  
+.plus-sign {
+  border: 1px solid #00075A;
+  height: 5px; 
+  cursor: pointer;     
+  width: 7px;
+  padding: 0 5px 0;
+  border-radius: 50%;
 }
 
 .add{
@@ -95,7 +96,6 @@
   position: relative;
   top: 2px;
 }
-
 .icon-none {
   display: inline-block;
   width: 25px;
@@ -108,5 +108,5 @@
 }
 
 .graph{
-  width: 100%;
+  width: 80%;
 }
