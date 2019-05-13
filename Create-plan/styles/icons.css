@@ -4,7 +4,7 @@
     width: 10px;
     height: 10px;
     position: absolute;
-    top: 10px;
+    top: 12px;
   }
   
   .triangle-down {
@@ -25,10 +25,10 @@
 
   
   .container-left {
-    width: 10px;
-    height: 10px;
+    width: 9px;
+    height: 9px;
     position: relative;
-    top: 10px;
+    top: 12px;
     right: 20px;
 
   }
@@ -37,8 +37,8 @@
     position: absolute;
     margin: auto;
     top: 2px;
-    width: 10px;
-    height: 10px;
+    width: 9px;
+    height: 9px;
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
