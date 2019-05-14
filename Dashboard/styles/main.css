@@ -75,3 +75,8 @@
 input[type="date"] {
   border-radius: 1px;
 }
+
+/* .error-msg {
+  display: inline-flex;
+  align-items: center;
+} */

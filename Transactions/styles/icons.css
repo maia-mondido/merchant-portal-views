@@ -1,7 +1,5 @@
 /* Arrows */
 
-/* Arrows */
-
 .container-down {
   width: 10px;
   height: 10px;
@@ -62,6 +60,7 @@
   position: absolute;
   margin: auto;
   top: 1px;
+  left: 7px;
   width: 10px;
   height: 10px;
   transform: rotate(-45deg);
@@ -73,22 +72,23 @@
   border-bottom: 1px solid #8B8A8D;
 }
 
-/* Circled plus */
+/* Circled icons */
   
-.plus-sign {
+.inner-content {
   border: 1px solid #00075A;
   height: 5px; 
   cursor: pointer;     
-  width: 7px;
-  padding: 0 5px 0;
+  width: 10px;
+  padding: 0 7px 1px;
   border-radius: 50%;
 }
 
-.add{
+.circle {
   color: #00075A;
   font-size: 20px;
   margin-left: -15px;
 }
+
 
 .icon {
   width: 10%;
@@ -105,6 +105,7 @@
   top: 7px;
   left: -2px;
 }
+
 .graph{
   width: 100%;
 }
