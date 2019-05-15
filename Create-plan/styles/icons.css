@@ -83,6 +83,10 @@
     border-radius: 50%;
 }
 
+.inner-content:hover {
+  background-color: #DCEDFF;
+}
+
 .circle {
   color: #00075A;
   font-size: 20px;

@@ -56,10 +56,18 @@
   display: inline-block;
   color: #000;
   margin: 10px;
+  padding: 0 8px;
+
 }
 
 .pagination li a.selected{
   background: #00075A;
   color: #fff;
   padding: 0 8px;
+}
+
+.pagination li a:hover {
+  text-decoration: none;
+  color: #000;
+  background-color: #DCEDFF;
 }
